@@ -1,0 +1,6 @@
+.description p {
+  font: 200 .8rem Fira Code;
+  color: var(--cultured-2);
+
+  text-align: center;
+}

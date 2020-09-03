@@ -1,0 +1,749 @@
+{
+  "home": [
+
+    "id": 8519,
+    "code": "devops",
+    "kind": "DEGREE",
+    "kindDisplayName": "Formação",
+    "kindSlugDisplayName": "formacao",
+    "situation": "PUBLISHED",
+    "title": "DevOps",
+    "subtitle": "Colaboração, compartilhamento do conhecimento e melhoria contínua. Faça parte do movimento DevOps que só cresce!",
+    "description": {
+      "id": 14750,
+      "title": "DevOps",
+      "description": "<p>Dentro das empresas, a procura por &#34;profissionais DevOps&#34; vem aumentando junto com o movimento ágil. Mas na verdade o DevOps não é um cargo nem ferramenta. </p>\r\n<p> <strong>O que é DevOps?</strong></p>\r\n<p>O DevOps é um movimento cultural, uma forma de pensar que todos devem participar para melhorar a qualidade do software, automatizar e monitorar todas as operações, realizando testes, integrações e entregas contínuas.</p>\r\n<p><strong>O que você vai aprender?</strong></p>\r\n<p>Nesta Formação vamos conhecer os comandos, programas, processos e pacotes do Linux e vai gerenciar o seu código com Git e Github</p>\r\n<p>A <strong>integração e entrega contínua</strong> são práticas fundamentais no mundo desenvolvimento e DevOps. Você verá as duas plataformas mais populares para a construção de um pipeline de deploy: o <strong>Jenkins</strong> e <strong>Gitlab CI</strong> para criar builds e testes contínuos.</p>\r\n<p>Além disso, você vai aprender a usar a <strong>infraestrutura como código</strong> para que seja sempre fácil de replicar ambientes e entender como automatizar a instalação de uma máquina com Vagrant e como provisioná-la com Ansible, além do conhecer a ferramenta Terraform que possibilita o gerenciamento de recursos na nuvem.</p>\r\n<p>Estamos vivendo na época de container e o <strong>Docker</strong> como container engine não pode faltar.  O <strong>Kubernetes</strong> como <strong>orquestrador de containers</strong> também será apresentador no decorrer desta formação.</p>\r\n<p>Por fim, não podemos deixar de procurar o <strong>feedback contínuo</strong> e monitorar o sistema em produção. Para tal, você aprenderá Grafana com Telegraf e InfluxDB.</p>\r\n",
+      "position": null
+    ],
+    "steps": [{
+        "id": 10060,
+        "title": "Controle de Versão com Git e Github",
+        "description": "<p>Nesta parte inicial você conhecerá o que o DevOps e as ferramentas que lhe ajudarão a ter maior controle sobre seu código e o compartilhamento dele com o mundo! Você conhecerá o comandos do Linux e aprenderá a usar o maior aliado na hora de salvar ou recuperar o código: o Git. Agora sim, você terá o controle total sobre seu código!</p>",
+        "contents": [{
+          "id": 251659,
+          "kind": "EXTRA_CONTENT",
+          "title": "O que é DevOps?",
+          "url": "https://cursos.alura.com.br/o-que-e-devops-c82",
+          "position": 1,
+          "color": "#d3d3d3",
+          "slug": null,
+          "categoryUrl": "",
+          "icon": null,
+          "course": false,
+          "courseSlug": ""
+        }, {
+          "id": 251660,
+          "kind": "COURSE",
+          "title": "Linux I: Conhecendo e utilizando o terminal",
+          "url": "https://www.alura.com.br/curso-online-linux-ubuntu",
+          "position": 2,
+          "color": "#f16165",
+          "slug": "linux-ubuntu",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "linux-ubuntu"
+        }, {
+          "id": 251661,
+          "kind": "COURSE",
+          "title": "Linux II: Programas, processos e pacotes",
+          "url": "https://www.alura.com.br/curso-online-linux-ubuntu-processos",
+          "position": 3,
+          "color": "#f16165",
+          "slug": "linux-ubuntu-processos",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "linux-ubuntu-processos"
+        }, {
+          "id": 251662,
+          "kind": "COURSE",
+          "title": "Git e Github: Controle e compartilhe seu código",
+          "url": "https://www.alura.com.br/curso-online-git-github-controle-de-versao",
+          "position": 4,
+          "color": "#f16165",
+          "slug": "git-github-controle-de-versao",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "git-github-controle-de-versao"
+        }, {
+          "id": 251663,
+          "kind": "COURSE",
+          "title": "Git e Github: Estratégias de ramificação, Conflitos e Pull Requests",
+          "url": "https://www.alura.com.br/curso-online-git-github-branching-conflitos-pull-requests",
+          "position": 5,
+          "color": "#f16165",
+          "slug": "git-github-branching-conflitos-pull-requests",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "git-github-branching-conflitos-pull-requests"
+        }],
+        "position": 1,
+        "empty": false,
+        "courses": [{
+          "id": 251660,
+          "kind": "COURSE",
+          "title": "Linux I: Conhecendo e utilizando o terminal",
+          "url": "https://www.alura.com.br/curso-online-linux-ubuntu",
+          "position": 2,
+          "color": "#f16165",
+          "slug": "linux-ubuntu",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "linux-ubuntu"
+        }, {
+          "id": 251661,
+          "kind": "COURSE",
+          "title": "Linux II: Programas, processos e pacotes",
+          "url": "https://www.alura.com.br/curso-online-linux-ubuntu-processos",
+          "position": 3,
+          "color": "#f16165",
+          "slug": "linux-ubuntu-processos",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "linux-ubuntu-processos"
+        }, {
+          "id": 251662,
+          "kind": "COURSE",
+          "title": "Git e Github: Controle e compartilhe seu código",
+          "url": "https://www.alura.com.br/curso-online-git-github-controle-de-versao",
+          "position": 4,
+          "color": "#f16165",
+          "slug": "git-github-controle-de-versao",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "git-github-controle-de-versao"
+        }, {
+          "id": 251663,
+          "kind": "COURSE",
+          "title": "Git e Github: Estratégias de ramificação, Conflitos e Pull Requests",
+          "url": "https://www.alura.com.br/curso-online-git-github-branching-conflitos-pull-requests",
+          "position": 5,
+          "color": "#f16165",
+          "slug": "git-github-branching-conflitos-pull-requests",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "git-github-branching-conflitos-pull-requests"
+        }],
+        "descriptionText": {
+          "raw": "<p>Nesta parte inicial você conhecerá o que o DevOps e as ferramentas que lhe ajudarão a ter maior controle sobre seu código e o compartilhamento dele com o mundo! Você conhecerá o comandos do Linux e aprenderá a usar o maior aliado na hora de salvar ou recuperar o código: o Git. Agora sim, você terá o controle total sobre seu código!</p>",
+          "valid": true,
+          "empty": false
+        }
+      },
+      {
+        "id": 10061,
+        "title": "Virtualização e Provisionamento",
+        "description": "<p>Nesta parte, você entrará no mundo de <strong>Infraestrutura como código</strong>.  Que tal <em>criar ambientes complexos</em> a partir de um <em>único clique</em>? Para isso você aprenderá como controlar máquinas virtuais com o <strong>Vagrant</strong> e conhecerá o <strong>Ansible</strong> para provisionar a maquina e <strong>Packer</strong> para provisionar imagens, além de controlar a nuvem com o <strong>Terraform</strong>.</p>",
+        "contents": [{
+          "id": 251669,
+          "kind": "EXTRA_CONTENT",
+          "title": "O que é Infraestrutura como Código?",
+          "url": "https://cursos.alura.com.br/o-que-e-infraestrutura-como-codigo--c139",
+          "position": 1,
+          "color": "#d3d3d3",
+          "slug": null,
+          "categoryUrl": "",
+          "icon": null,
+          "course": false,
+          "courseSlug": ""
+        }, {
+          "id": 251670,
+          "kind": "COURSE",
+          "title": "Vagrant: Gerenciando máquinas virtuais",
+          "url": "https://www.alura.com.br/curso-online-vagrant-gerenciando-maquinas-virtuais",
+          "position": 2,
+          "color": "#f16165",
+          "slug": "vagrant-gerenciando-maquinas-virtuais",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "vagrant-gerenciando-maquinas-virtuais"
+        }, {
+          "id": 251671,
+          "kind": "COURSE",
+          "title": "Ansible: Sua infraestrutura como código",
+          "url": "https://www.alura.com.br/curso-online-infraestrutura-como-codigo-com-ansible",
+          "position": 3,
+          "color": "#f16165",
+          "slug": "infraestrutura-como-codigo-com-ansible",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "infraestrutura-como-codigo-com-ansible"
+        }, {
+          "id": 251672,
+          "kind": "EXTRA_CONTENT",
+          "title": "O que é Packer?",
+          "url": "https://cursos.alura.com.br/o-que-e-packer--c53",
+          "position": 4,
+          "color": "#d3d3d3",
+          "slug": null,
+          "categoryUrl": "",
+          "icon": null,
+          "course": false,
+          "courseSlug": ""
+        }, {
+          "id": 251673,
+          "kind": "COURSE",
+          "title": "Terraform: Automatize a infraestrutura na nuvem",
+          "url": "https://www.alura.com.br/curso-online-terraform",
+          "position": 5,
+          "color": "#f16165",
+          "slug": "terraform",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "terraform"
+        }],
+        "position": 2,
+        "empty": false,
+        "courses": [{
+          "id": 251670,
+          "kind": "COURSE",
+          "title": "Vagrant: Gerenciando máquinas virtuais",
+          "url": "https://www.alura.com.br/curso-online-vagrant-gerenciando-maquinas-virtuais",
+          "position": 2,
+          "color": "#f16165",
+          "slug": "vagrant-gerenciando-maquinas-virtuais",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "vagrant-gerenciando-maquinas-virtuais"
+        }, {
+          "id": 251671,
+          "kind": "COURSE",
+          "title": "Ansible: Sua infraestrutura como código",
+          "url": "https://www.alura.com.br/curso-online-infraestrutura-como-codigo-com-ansible",
+          "position": 3,
+          "color": "#f16165",
+          "slug": "infraestrutura-como-codigo-com-ansible",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "infraestrutura-como-codigo-com-ansible"
+        }, {
+          "id": 251673,
+          "kind": "COURSE",
+          "title": "Terraform: Automatize a infraestrutura na nuvem",
+          "url": "https://www.alura.com.br/curso-online-terraform",
+          "position": 5,
+          "color": "#f16165",
+          "slug": "terraform",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "terraform"
+        }],
+        "descriptionText": {
+          "raw": "<p>Nesta parte, você entrará no mundo de <strong>Infraestrutura como código</strong>.  Que tal <em>criar ambientes complexos</em> a partir de um <em>único clique</em>? Para isso você aprenderá como controlar máquinas virtuais com o <strong>Vagrant</strong> e conhecerá o <strong>Ansible</strong> para provisionar a maquina e <strong>Packer</strong> para provisionar imagens, além de controlar a nuvem com o <strong>Terraform</strong>.</p>",
+          "valid": true,
+          "empty": false
+        }
+      },
+      {
+        "id": 10062,
+        "title": "Infraestrutura ágil com Docker e Kubernetes",
+        "description": "<p>Chegou a parte do famoso <strong>Docker</strong>! Você aprenderá a criar e gerenciar containers em forma de receitas e scripts, os fará a comunicarem entre si . As imagens Docker representam uma forma uniforme e leve de empacotar uma aplicação que não pode faltar nessa formação.</p>\r\n<p>As ferramentas <strong>Kubernetes</strong> e <strong>Docker Swarm</strong> são orquestradores de containers para aumentar a disponibilidade e escalabilidade deles.  </p>",
+        "contents": [{
+          "id": 251674,
+          "kind": "COURSE",
+          "title": "Docker: Criando containers sem dor de cabeça",
+          "url": "https://www.alura.com.br/curso-online-docker-e-docker-compose",
+          "position": 1,
+          "color": "#f16165",
+          "slug": "docker-e-docker-compose",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "docker-e-docker-compose"
+        }, {
+          "id": 251675,
+          "kind": "EXTRA_CONTENT",
+          "title": "Usando Docker Multi-Stage Build para otimizar a imagem",
+          "url": "https://cursos.alura.com.br/usando-docker-multi-stage-build-para-otimizar-a-imagem-c74",
+          "position": 2,
+          "color": "#d3d3d3",
+          "slug": null,
+          "categoryUrl": "",
+          "icon": null,
+          "course": false,
+          "courseSlug": ""
+        }, {
+          "id": 251676,
+          "kind": "EXTRA_CONTENT",
+          "title": "Quais são os tipos de armazenamentos no Docker?",
+          "url": "https://cursos.alura.com.br/quais-sao-os-tipos-de-armazenamentos-no-docker--c134",
+          "position": 3,
+          "color": "#d3d3d3",
+          "slug": null,
+          "categoryUrl": "",
+          "icon": null,
+          "course": false,
+          "courseSlug": ""
+        }, {
+          "id": 251677,
+          "kind": "COURSE",
+          "title": "Docker Swarm: Orquestrador de containers",
+          "url": "https://www.alura.com.br/curso-online-docker-swarm-cluster-container",
+          "position": 4,
+          "color": "#f16165",
+          "slug": "docker-swarm-cluster-container",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "docker-swarm-cluster-container"
+        }, {
+          "id": 251678,
+          "kind": "COURSE",
+          "title": "Kubernetes: Orquestração de containers",
+          "url": "https://www.alura.com.br/curso-online-kubernetes-orquestracao",
+          "position": 5,
+          "color": "#f16165",
+          "slug": "kubernetes-orquestracao",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "kubernetes-orquestracao"
+        }],
+        "position": 3,
+        "empty": false,
+        "courses": [{
+          "id": 251674,
+          "kind": "COURSE",
+          "title": "Docker: Criando containers sem dor de cabeça",
+          "url": "https://www.alura.com.br/curso-online-docker-e-docker-compose",
+          "position": 1,
+          "color": "#f16165",
+          "slug": "docker-e-docker-compose",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "docker-e-docker-compose"
+        }, {
+          "id": 251677,
+          "kind": "COURSE",
+          "title": "Docker Swarm: Orquestrador de containers",
+          "url": "https://www.alura.com.br/curso-online-docker-swarm-cluster-container",
+          "position": 4,
+          "color": "#f16165",
+          "slug": "docker-swarm-cluster-container",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "docker-swarm-cluster-container"
+        }, {
+          "id": 251678,
+          "kind": "COURSE",
+          "title": "Kubernetes: Orquestração de containers",
+          "url": "https://www.alura.com.br/curso-online-kubernetes-orquestracao",
+          "position": 5,
+          "color": "#f16165",
+          "slug": "kubernetes-orquestracao",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "kubernetes-orquestracao"
+        }],
+        "descriptionText": {
+          "raw": "<p>Chegou a parte do famoso <strong>Docker</strong>! Você aprenderá a criar e gerenciar containers em forma de receitas e scripts, os fará a comunicarem entre si . As imagens Docker representam uma forma uniforme e leve de empacotar uma aplicação que não pode faltar nessa formação.</p>\r\n<p>As ferramentas <strong>Kubernetes</strong> e <strong>Docker Swarm</strong> são orquestradores de containers para aumentar a disponibilidade e escalabilidade deles.  </p>",
+          "valid": true,
+          "empty": false
+        }
+      },
+      {
+        "id": 10063,
+        "title": "Integração e entrega continua",
+        "description": "<p>Agora é hora de aprender os conceitos e práticas da integração e entrega contínua e criar um pipeline de construção de software usando as duas ferramentas mais populares: Jenkins e Gitlab CI</p>",
+        "contents": [{
+          "id": 765250,
+          "kind": "PODCAST",
+          "title": "Integração Contínua, Deploy Contínuo e Github Actions - Hipsters #213 - Hipsters Ponto TechHipsters Ponto Tech",
+          "url": "https://hipsters.tech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213",
+          "position": 1,
+          "color": "#d3d3d3",
+          "slug": null,
+          "categoryUrl": "",
+          "icon": null,
+          "course": false,
+          "courseSlug": ""
+        }, {
+          "id": 765251,
+          "kind": "COURSE",
+          "title": "Integração Contínua: Mais qualidade e menos risco no desenvolvimento",
+          "url": "https://www.alura.com.br/curso-online-desenvolvimento-software-integracao-continua",
+          "position": 2,
+          "color": "#f16165",
+          "slug": "desenvolvimento-software-integracao-continua",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "desenvolvimento-software-integracao-continua"
+        }, {
+          "id": 765252,
+          "kind": "COURSE",
+          "title": "Entrega Contínua: Confiabilidade e qualidade na implantação de software",
+          "url": "https://www.alura.com.br/curso-online-entrega-continua-confiabilidade-qualidade",
+          "position": 3,
+          "color": "#f16165",
+          "slug": "entrega-continua-confiabilidade-qualidade",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "entrega-continua-confiabilidade-qualidade"
+        }, {
+          "id": 765253,
+          "kind": "COURSE",
+          "title": "Jenkins e Docker: Pipeline de entrega continua",
+          "url": "https://www.alura.com.br/curso-online-pipeline-ci-jenkins-docker",
+          "position": 4,
+          "color": "#f16165",
+          "slug": "pipeline-ci-jenkins-docker",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "pipeline-ci-jenkins-docker"
+        }, {
+          "id": 765254,
+          "kind": "COURSE",
+          "title": "Gitlab CI e Docker: Pipeline de entrega contínua",
+          "url": "https://www.alura.com.br/curso-online-gitlab-docker-integracao-continua",
+          "position": 5,
+          "color": "#f16165",
+          "slug": "gitlab-docker-integracao-continua",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "gitlab-docker-integracao-continua"
+        }, {
+          "id": 765255,
+          "kind": "EXTRA_CONTENT",
+          "title": "Pipeline de Build com Docker e Azure",
+          "url": "https://cursos.alura.com.br/criando-pipeline-de-build-no-azure-c144",
+          "position": 6,
+          "color": "#d3d3d3",
+          "slug": null,
+          "categoryUrl": "",
+          "icon": null,
+          "course": false,
+          "courseSlug": ""
+        }],
+        "position": 4,
+        "empty": false,
+        "courses": [{
+          "id": 765251,
+          "kind": "COURSE",
+          "title": "Integração Contínua: Mais qualidade e menos risco no desenvolvimento",
+          "url": "https://www.alura.com.br/curso-online-desenvolvimento-software-integracao-continua",
+          "position": 2,
+          "color": "#f16165",
+          "slug": "desenvolvimento-software-integracao-continua",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "desenvolvimento-software-integracao-continua"
+        }, {
+          "id": 765252,
+          "kind": "COURSE",
+          "title": "Entrega Contínua: Confiabilidade e qualidade na implantação de software",
+          "url": "https://www.alura.com.br/curso-online-entrega-continua-confiabilidade-qualidade",
+          "position": 3,
+          "color": "#f16165",
+          "slug": "entrega-continua-confiabilidade-qualidade",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "entrega-continua-confiabilidade-qualidade"
+        }, {
+          "id": 765253,
+          "kind": "COURSE",
+          "title": "Jenkins e Docker: Pipeline de entrega continua",
+          "url": "https://www.alura.com.br/curso-online-pipeline-ci-jenkins-docker",
+          "position": 4,
+          "color": "#f16165",
+          "slug": "pipeline-ci-jenkins-docker",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "pipeline-ci-jenkins-docker"
+        }, {
+          "id": 765254,
+          "kind": "COURSE",
+          "title": "Gitlab CI e Docker: Pipeline de entrega contínua",
+          "url": "https://www.alura.com.br/curso-online-gitlab-docker-integracao-continua",
+          "position": 5,
+          "color": "#f16165",
+          "slug": "gitlab-docker-integracao-continua",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "gitlab-docker-integracao-continua"
+        }],
+        "descriptionText": {
+          "raw": "<p>Agora é hora de aprender os conceitos e práticas da integração e entrega contínua e criar um pipeline de construção de software usando as duas ferramentas mais populares: Jenkins e Gitlab CI</p>",
+          "valid": true,
+          "empty": false
+        }
+      },
+      {
+        "id": 10064,
+        "title": "Feedback através de Monitoramento",
+        "description": "<p>Por fim não pode faltar monitorar e observar o sistema em produção. Para tal escolhemos o Netdata e Grafana com Telegraf. </p>",
+        "contents": [{
+          "id": 251652,
+          "kind": "EXTRA_CONTENT",
+          "title": "Monitoramento com Netdata",
+          "url": "https://cursos.alura.com.br/monitoramento-com-netdata-c95",
+          "position": 1,
+          "color": "#d3d3d3",
+          "slug": null,
+          "categoryUrl": "",
+          "icon": null,
+          "course": false,
+          "courseSlug": ""
+        }, {
+          "id": 251653,
+          "kind": "COURSE",
+          "title": "Grafana e Telegraf: Monitoramento em tempo real",
+          "url": "https://www.alura.com.br/curso-online-grafana-telegraf-monitoramento",
+          "position": 2,
+          "color": "#f16165",
+          "slug": "grafana-telegraf-monitoramento",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "grafana-telegraf-monitoramento"
+        }],
+        "position": 5,
+        "empty": false,
+        "courses": [{
+          "id": 251653,
+          "kind": "COURSE",
+          "title": "Grafana e Telegraf: Monitoramento em tempo real",
+          "url": "https://www.alura.com.br/curso-online-grafana-telegraf-monitoramento",
+          "position": 2,
+          "color": "#f16165",
+          "slug": "grafana-telegraf-monitoramento",
+          "categoryUrl": "",
+          "icon": null,
+          "course": true,
+          "courseSlug": "grafana-telegraf-monitoramento"
+        }],
+        "descriptionText": {
+          "raw": "<p>Por fim não pode faltar monitorar e observar o sistema em produção. Para tal escolhemos o Netdata e Grafana com Telegraf. </p>",
+          "valid": true,
+          "empty": false
+        }
+      }
+    ],
+    "instructors": [{
+      "twitter": "",
+      "linkedin": null,
+      "username": "alexander-ramos-jardim",
+      "githubProfileLink": null,
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/10d8a606d64da461616aabdc230f94c7.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_a.png",
+        "100": "https://www.gravatar.com/avatar/10d8a606d64da461616aabdc230f94c7.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_a.png",
+        "200": "https://www.gravatar.com/avatar/10d8a606d64da461616aabdc230f94c7.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_a.png"
+      },
+      "sobre": "",
+      "nome": "Alexander Ramos Jardim"
+    }, {
+      "twitter": "DanielArtine",
+      "linkedin": "https://linkedin.com/in/danielartine",
+      "username": "dan-artine",
+      "githubProfileLink": null,
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/43820cbcfe0e2fb5a321085b70a9d642.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_d.png",
+        "100": "https://www.gravatar.com/avatar/43820cbcfe0e2fb5a321085b70a9d642.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_d.png",
+        "200": "https://www.gravatar.com/avatar/43820cbcfe0e2fb5a321085b70a9d642.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_d.png"
+      },
+      "sobre": "Daniel é desenvolvedor e instrutor na Caelum e Alura.\r\n\r\nPossui certificação Docker e formação em Ciência da Computação pela Universidade Federal do Rio de Janeiro.",
+      "nome": "Daniel Artine"
+    }, {
+      "twitter": "dquintanilhas",
+      "linkedin": "https://www.linkedin.com/in/douglas-quintanilha/",
+      "username": "douglasquintanilha",
+      "githubProfileLink": null,
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/e9964830393492c82b22e82d752c2a86.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_d.png",
+        "100": "https://www.gravatar.com/avatar/e9964830393492c82b22e82d752c2a86.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_d.png",
+        "200": "https://www.gravatar.com/avatar/e9964830393492c82b22e82d752c2a86.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_d.png"
+      },
+      "sobre": "Douglas é desenvolvedor e instrutor na Caelum, além de instrutor na Alura, interessado em Javascript, Front end, administração de sistemas e um pouquinho de Eletrônica!",
+      "nome": "Douglas Quintanilha Barbosa Ferreira"
+    }, {
+      "twitter": "guilhermecaelum",
+      "linkedin": "https://www.linkedin.com/in/guilhermeazevedosilveira/",
+      "username": "guilherme-silveira",
+      "githubProfileLink": null,
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/641f736b59103127c7a6a46a683bca58.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_g.png",
+        "100": "https://www.gravatar.com/avatar/641f736b59103127c7a6a46a683bca58.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_g.png",
+        "200": "https://www.gravatar.com/avatar/641f736b59103127c7a6a46a683bca58.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_g.png"
+      },
+      "sobre": "Guilherme co-fundou a Caelum, a Alura e o GUJ. Com mais de 15 anos de experiência no ensino de programação e habilidades digitais, coordena as equipes de produção de cursos na Alura. É tecnólogo com viés matemático e medalhista de ouro em competições nacionais de computação, representando o Brasil nos mundiais. Participante ativo da comunidade open source e de educação em tecnologia, autor de 7 livros da área.",
+      "nome": "Guilherme Silveira"
+    }, {
+      "twitter": null,
+      "linkedin": null,
+      "username": "lucas-desenv-web",
+      "githubProfileLink": null,
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/df5211342ac67bd83e37d9c0072faaa1.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_j.png",
+        "100": "https://www.gravatar.com/avatar/df5211342ac67bd83e37d9c0072faaa1.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_j.png",
+        "200": "https://www.gravatar.com/avatar/df5211342ac67bd83e37d9c0072faaa1.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_j.png"
+      },
+      "sobre": "",
+      "nome": "João Lucas"
+    }, {
+      "twitter": "steppat",
+      "linkedin": "https://www.linkedin.com/in/steppat/",
+      "username": "nico-steppat",
+      "githubProfileLink": null,
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/5d4d01ce7d4b5ec4734cb6ad0dd8af4e.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_n.png",
+        "100": "https://www.gravatar.com/avatar/5d4d01ce7d4b5ec4734cb6ad0dd8af4e.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_n.png",
+        "200": "https://www.gravatar.com/avatar/5d4d01ce7d4b5ec4734cb6ad0dd8af4e.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_n.png"
+      },
+      "sobre": "Nico trabalha na área de tecnologia há mais de 20 anos e atuou como desenvolvedor e instrutor no Brasil e na Alemanha. Participa ativamente na comunidade e com uma experiência de mais de 12 anos em educação, coordena hoje equipes de instrutores e é responsável pela curadoria de cursos online na Alura.",
+      "nome": "Nico Steppat"
+    }, {
+      "twitter": "rafaelvzago",
+      "linkedin": "https://www.linkedin.com/in/rafaelvzago/",
+      "username": "rafaelvzago",
+      "githubProfileLink": null,
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/1489aacee983a7e44239bde9f8b0f423.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png",
+        "100": "https://www.gravatar.com/avatar/1489aacee983a7e44239bde9f8b0f423.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png",
+        "200": "https://www.gravatar.com/avatar/1489aacee983a7e44239bde9f8b0f423.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png"
+      },
+      "sobre": "Analista de infraestrutura e sysadmin. no desenvolvimento e gerenciamento de soluções de software de integração de serviços, departamentos e equipes e qualidade. Especializado em open-source, Unix, Linux, SOA e tecnologias de conectividade e segurança, devops e automação.",
+      "nome": "Rafael Zago"
+    }, {
+      "twitter": "https://twitter.com/r_merces",
+      "linkedin": "https://www.linkedin.com/in/ricardomerces/",
+      "username": "ricardo-merces",
+      "githubProfileLink": "",
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/ea62a613adc7f529253a0e60bb2ad92c.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png",
+        "100": "https://www.gravatar.com/avatar/ea62a613adc7f529253a0e60bb2ad92c.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png",
+        "200": "https://www.gravatar.com/avatar/ea62a613adc7f529253a0e60bb2ad92c.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_r.png"
+      },
+      "sobre": "Ricardo atua há 30 anos na áreas da Tecnologia da Informação. É graduado em TI, pós graduado em administração de empresas na FGV e em Educação pela UFF. Como professor e consultor tem desenvolvido  suas atividades nas áreas de Cloud Computing, Segurança da Informação, Desenvolvimento, DevOps e IoT.",
+      "nome": "Ricardo Merces"
+    }, {
+      "twitter": "cviniciussdias",
+      "linkedin": "https://www.linkedin.com/in/vinícius-dias/",
+      "username": "cviniciussdias",
+      "githubProfileLink": "https://github.com/cviniciussdias",
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/63579c5a873f3ab6abff10803e9a252f.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_v.png",
+        "100": "https://www.gravatar.com/avatar/63579c5a873f3ab6abff10803e9a252f.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_v.png",
+        "200": "https://www.gravatar.com/avatar/63579c5a873f3ab6abff10803e9a252f.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_v.png"
+      },
+      "sobre": "Zend Certified Engineer (Engenheiro PHP Certificado pela Zend), iMasters Certified Professional, desenvolvedor Full Stack, formado em Tecnologia da Informação e amante de boas práticas de desenvolvimento, vinicius sempre tenta aplicar a regra do bom escoteiro nos códigos: &amp;quot;Sempre deixe o local mais limpo do que quando você o encontrou&amp;quot;.",
+      "nome": "Vinicius Dias"
+    }],
+    "conclusion": {
+      "id": 14753,
+      "title": "Parabéns, agora você já tem um ótimo conhecimento sobre a entrega e integração contínua e o ciclo de feedback do mundo DevOps!",
+      "description": " ",
+      "position": null
+    },
+    "estimatedTimeToFinish": 240,
+    "color": "#f16165",
+    "metaDescription": {
+      "raw": "Faça parte do movimento DevOps! Use as mais populares ferramentas como Docker e Jenkins,  domine Git, Ansible e Terraform! Entenda as práticas por trás de uma verdadeira cultura de infraestrutura como código.",
+      "valid": true,
+      "empty": false
+    },
+    "testimonies": [{
+      "texto": "Basicão e direto. Ótima introdução ao terminal do linux.\r\nAtende ao propósito de ensinar a quem quer apenas utilizar o sistema e não buscar a certificação.\r\nLegal!",
+      "aluno": "Leandro Ramos Barroso",
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/f27dc917665a3e92c3d44fba92c942f6.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+        "100": "https://www.gravatar.com/avatar/f27dc917665a3e92c3d44fba92c942f6.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+        "200": "https://www.gravatar.com/avatar/f27dc917665a3e92c3d44fba92c942f6.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png"
+      },
+      "data_criacao": "2020-05-09",
+      "curso": {
+        "urlName": "linux-ubuntu",
+        "id": 118,
+        "slug": "linux-ubuntu",
+        "nome": "Linux I: Conhecendo e utilizando o terminal",
+        "quantidade_aulas": 0,
+        "minutos_video": 0,
+        "dificuldade": 1,
+        "tempo_estimado": 4,
+        "chamadas": [],
+        "quantidade_musicas": 0,
+        "data_publicacao": null,
+        "highlightedExtraField": null
+      },
+      "nota_nps": 10
+    }, {
+      "texto": "Curso muito prático e bem didático, sem enrolação.  Muito bom!",
+      "aluno": "Clovis Dantas Ferreira",
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/ae7c04903a69c49f29c121b9b2548e7e.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+        "100": "https://www.gravatar.com/avatar/ae7c04903a69c49f29c121b9b2548e7e.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+        "200": "https://www.gravatar.com/avatar/ae7c04903a69c49f29c121b9b2548e7e.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png"
+      },
+      "data_criacao": "2020-05-13",
+      "curso": {
+        "urlName": "linux-ubuntu-processos",
+        "id": 122,
+        "slug": "linux-ubuntu-processos",
+        "nome": "Linux II: Programas, processos e pacotes",
+        "quantidade_aulas": 0,
+        "minutos_video": 0,
+        "dificuldade": 5,
+        "tempo_estimado": 8,
+        "chamadas": [],
+        "quantidade_musicas": 0,
+        "data_publicacao": null,
+        "highlightedExtraField": null
+      },
+      "nota_nps": 9
+    }, {
+      "texto": "Exelente curso, desde a didática, carisma do instrutor e profundidade de conhecimento.",
+      "aluno": "ALCIMAR ÁLVARO COSTA",
+      "fotos": {
+        "50": "https://www.gravatar.com/avatar/c73aae6d7bda5d7f52deb62744bb9247.png?r=PG&size=50x50&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+        "100": "https://www.gravatar.com/avatar/c73aae6d7bda5d7f52deb62744bb9247.png?r=PG&size=100x100&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png",
+        "200": "https://www.gravatar.com/avatar/c73aae6d7bda5d7f52deb62744bb9247.png?r=PG&size=200x200&date=2020-08-27&d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_user.png"
+      },
+      "data_criacao": "2020-05-10",
+      "curso": {
+        "urlName": "git-github-controle-de-versao",
+        "id": 1275,
+        "slug": "git-github-controle-de-versao",
+        "nome": "Git e Github: Controle e compartilhe seu código",
+        "quantidade_aulas": 0,
+        "minutos_video": 0,
+        "dificuldade": 1,
+        "tempo_estimado": 6,
+        "chamadas": [],
+        "quantidade_musicas": 0,
+        "data_publicacao": null,
+        "highlightedExtraField": null
+      },
+      "nota_nps": 10
+    }],
+    "videoUrl": "",
+    "criteoId": "degree-8519",
+    "categoryUrlName": "infraestrutura",
+    "categoryName": "Infraestrutura",
+    "totalPublishedCourses": 15,
+    "totalPodcasts": 1,
+    "totalPosts": 0,
+    "totalVideos": 0,
+    "inactive": false
+  }

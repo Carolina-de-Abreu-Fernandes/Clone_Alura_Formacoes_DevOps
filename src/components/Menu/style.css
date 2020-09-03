@@ -1,0 +1,80 @@
+.header {
+  border-bottom-left-radius: .2rem;
+  border-bottom-right-radius: .2rem;
+  border-style: solid;
+  border-bottom-color: var(--cultured-2);
+}
+
+.header,
+.linkedIn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  max-width: 3rem;
+  max-height: 3rem;
+  width: auto;
+  height: auto;
+
+  border-radius: 50%;
+
+  margin-left: .8rem;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+
+}
+
+.linkedIn img {
+  max-width: auto;
+  max-height: auto;
+
+  margin-right: .8rem;
+  margin-top: 1rem;
+
+  background: var(--cultured-2);
+}
+
+.body {
+  font: 400 1rem Oswald;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 2rem;
+}
+
+.body,
+.profile {
+  color: var(--cultured-2);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background: var(--rich-black-fogra-39);
+
+  padding: 1.5rem;
+  margin-left: 1rem;
+  border-radius: 1.5rem;
+
+}
+
+.profile img {
+  max-width: 4.5rem;
+  max-height: 4.5rem;
+  width: auto;
+  height: auto;
+
+  border-radius: 50%;
+  border-color: solid 5rem var(--charleston-green);
+
+  margin-right: 1rem;
+}
+
+.profile h3 {
+  font: 300 1rem Oswald;
+}
